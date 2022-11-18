@@ -5,11 +5,16 @@ import { auth } from "../firebaseConfig"
 export function SignIn() {
   return <button onClick={() => signInWithPopup(auth, new GoogleAuthProvider())}>Sign In</button>
 }
-
+export function GetName({user}){
+  return(
+    <div>
+       Hello {user && auth.currentUser.displayName} &nbsp;
+    </div>
+  )
+}
 export function SignOut() {
   return (
     <div>
-      Hello, {auth.currentUser.displayName} &nbsp;
       <button onClick={() => signOut(auth)}>Sign Out</button>
     </div>
   )

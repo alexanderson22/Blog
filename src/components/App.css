@@ -15,8 +15,9 @@ header {
   grid-column: 1 / span 2;
   padding: 30px 15px;
   font-family: courier;
-  font-size: 125%;
-
+  font-size: 130%;
+  font-style: normal;
+  font-weight: 900;
 }
 
 form {
@@ -42,6 +43,7 @@ article {
 
 nav {
   background-color: burlywood;
+  font-family: courier;
 }
 
 nav p:hover {
@@ -51,11 +53,16 @@ nav p:hover {
 
 article .date {
   font-style: italic;
+  font-family: courier;
+}
+
+h2 {
+  font-family: courier;
 }
 
 article .body {
   white-space: break-spaces;
-  background-color: greenyellow;
+  font-family: courier;
 }
 
 .error {
@@ -63,4 +70,10 @@ article .body {
   color: gold;
   padding: 5px;
 }
-
+button {
+  border-radius: 8px;
+  background-color: bisque;
+  border: 2px solid white;
+  font-family: courier;
+  font-weight: 300;
+}
