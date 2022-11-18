@@ -4,15 +4,19 @@
   grid-template-columns: 250px auto;
   height: 100vh;
   overflow: scroll;
+  background-color: lightgoldenrodyellow;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  color: white;
+  color: maroon;
   grid-column: 1 / span 2;
-  padding: 10px 5px;
+  padding: 30px 15px;
+  font-family: courier;
+  font-size: 125%;
+
 }
 
 form {
@@ -20,6 +24,8 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  font-family: courier;
+  background-color: lightgoldenrodyellow;
 }
 
 form input,
@@ -35,7 +41,7 @@ article {
 }
 
 nav {
-  background-color: #dee9ff;
+  background-color: burlywood;
 }
 
 nav p:hover {
@@ -49,6 +55,7 @@ article .date {
 
 article .body {
   white-space: break-spaces;
+  background-color: greenyellow;
 }
 
 .error {
@@ -56,3 +63,4 @@ article .body {
   color: gold;
   padding: 5px;
 }
+
